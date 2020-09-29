@@ -1,0 +1,506 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    padding: 0 168px;
+    margin-bottom: 50px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.3px;
+}
+
+.nav-left #logo a img {
+    width: 200px;
+}
+
+.nav-right {
+    color: 	#808080;
+}
+
+.nav-right ul {
+    margin-bottom: 0!important;
+}
+
+.nav-right ul a {
+    color: 	#808080;
+}
+
+.nav-right ul a:hover {
+    text-decoration: none;
+    color:	#000000;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul li a img {
+    width: 25px;
+}
+
+.nav-right ul li #breaker {
+    width: 2px;
+    height: 20px;
+    background-color: 	#808080;
+}
+
+.lesson .row .col-12 {
+    margin-bottom: 70px;
+}
+
+.lesson .row .col-12 #circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #78AB46;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.lesson .row .col-12 #circle:hover {
+    cursor: pointer;
+}
+
+.lesson .row .col-12 #circle:hover > #text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lesson .row .col-12 #circle #image img {
+    height: 80px;
+    width: 80px;
+}
+
+.lesson .row .col-12 #circle #text {
+    margin: 0;
+    position: absolute;
+    border-radius: 50%;
+    font-size: smaller;
+    color: #A9A9A9;
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.lesson .row .col-12 #heading #title a {
+    color: black;
+}
+
+.lesson .row .col-12 #heading #title a:hover {
+    text-decoration: none;
+}
+
+.lesson .row .col-12 #heading #project h2 {
+    color: #ce973e;
+    font-size: 16px;
+}
+
+.lesson .row .col-lg-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 40px;
+    margin-bottom: 60px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item {
+    height: 20px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item #bullet {
+    background-color: black;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item #text {
+    height: 20px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item #text p {
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item .bc-gray {
+    background-color: #808080!important;
+}
+
+.lesson .row .col-lg-3 .lesson-nav .lesson-nav-item .c-gray {
+    color: #808080!important;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.lesson .row .col-lg-9 {
+    color: #4a4a4a;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.9;
+    letter-spacing: 0.2px;
+}
+
+.lesson .row .col-lg-9 p {
+    font-size: .95rem;
+}
+
+.lesson .row .col-lg-9 #intro {
+    color: #4a4a4a;
+}
+
+.lesson .row .col-lg-9 #intro h1 {
+    font-size: 20px;
+}
+
+.lesson .row .col-lg-9 #intro p {
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+}
+
+.lesson .row .col-lg-9 #assignment {
+    color: #4a4a4a;
+}
+
+.lesson .row .col-lg-9 #assignment h1 {
+    font-size: 20px;
+}
+
+.lesson .row .col-lg-9 #assignment p {
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+}
+
+.lesson .row .col-lg-9 #instructions {
+    background-color: #f3f3f3;
+    padding: 1.5em;
+    margin: 20px 0 50px 0;
+}
+
+.lesson .row .col-lg-9 #instructions ol {
+    line-height: 1.9;
+}
+
+.lesson .row .col-lg-9 #instructions ol li {
+    margin-left: 15px!important;
+    color: #4a4a4a;
+    font-size: .95rem;
+}
+
+.lesson .row .col-lg-9 #instructions ol li a {
+    color: #cc9543;
+    text-decoration: underline;
+}
+
+.lesson .row .col-lg-9 #instructions ol li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lesson .row .col-lg-9 #instructions h4 {
+    color: #4a4a4a;
+    font-size: .95rem;
+}
+
+.lesson .row .col-lg-9 #solutions h1 {
+    font-size: 20px;
+}
+
+.lesson .row .col-lg-9 #solutions p a {
+    color: #cc9543;
+    text-decoration: underline;
+}
+
+.lesson .row .col-lg-9 #solutions p a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lesson .row .col-lg-9 #solutions a p {
+    color: rgba(74,74,74,0.7);
+}
+
+.lesson .row .col-lg-9 #solutions a:hover {
+    text-decoration: none;
+}
+
+.lesson .row .col-lg-9 #resources h1 {
+    font-size: 20px;
+}
+
+.lesson .row .col-lg-9 #resources p a {
+    color: #cc9543;
+    text-decoration: underline;
+}
+
+.lesson .row .col-lg-9 #resources p a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lesson .row .col-lg-9 #resources a p {
+    color: rgba(74,74,74,0.7);
+}
+
+.lesson .row .col-lg-9 #resources a:hover {
+    text-decoration: none;
+}
+
+.lesson-functions {
+    padding: 70px 0;
+    background: #eee;
+    text-align: center;
+}
+
+.card-main {
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+    padding: 40px 60px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem 3.5rem;
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+}
+
+.button:hover {
+    opacity: .9;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lesson-functions .container .card-main .card-buttons .button {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.button-secondary {
+    background-color: #cc9543;
+}
+
+.button-primary {
+    background-color: #6abfc3;
+}
+
+.lesson-functions .container #odin-link a {
+    color: #cc9543;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.lesson-functions .container #odin-link a:hover {
+    color: black;
+}
+
+#discord-link {
+    padding: 5em 2.5em;
+}
+
+#discord-link p {
+    color: rgba(74,74,74,0.7);
+}
+
+.discord-heading {
+    font-size: 2.2em;
+    line-height: 1.5em;
+    margin: 0 auto 1rem;
+    max-width: 25em;
+    font-weight: 300;
+}
+
+.discord-subheading {
+    font-weight: normal;
+    margin-bottom:2.5em;
+    font-size: 15px;
+}
+
+#discord-link a {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lesson-functions .container .card-main .card-main-top {
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.lesson-functions .container .card-main .card-main-top #text-box {
+    width: 70%;
+    text-align: left;
+    color: rgba(74,74,74,0.7);
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    font-size: 1.25rem;
+}
+
+.lesson-functions .container .card-main .card-main-top a {
+    height: 45px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom {
+    margin-top: 30px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom a img {
+    width: 50px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #left {
+    width: 150px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #left h2 {
+    margin-bottom: 0px!important;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #11343d;
+    margin-bottom: 0;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #left a:hover {
+    text-decoration: none;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #right ul {
+    margin-bottom: 0!important;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #right ul li {
+    list-style: none;
+    height: 50px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #right ul li i {
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+
+.lesson-functions .container .card-main .card-main-bottom #right ul li p {
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: .95rem;
+}
+
+footer {
+    min-height: 277px;
+    background-color: #fff;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer .footer-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-brand a img {
+    height: 60px;
+}
+
+footer .footer-social ul li {
+    list-style: none;
+    font-size: 22px;
+    margin: 20px;
+}
+
+footer .footer-social ul a {
+    color: #cc9543;
+}
+
+footer .footer-social ul a:hover {
+    color: black;
+}
+
+footer .footer-links {
+    padding: 30px;
+}
+
+footer .footer-links-container {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 90px;
+    align-items: flex-start;
+}
+
+footer .footer-links-container .footer-link {
+    flex-basis: 30px;
+    color: rgba(74,74,74,0.7);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+}
+
+footer .footer-links-container .footer-link:hover {
+    color: black;
+}
+
+.floating-dropdown {
+    bottom: 20px;
+    position: fixed;
+    z-index: 1000;
+    right: 20px;
+}
+
+.floating-dropdown .dropdown-item {
+    background: #6abfc3;
+    border-radius: 50%;
+    box shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    padding: 1em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.floating-dropdown .main-item i {
+    color: #fff;
+    font-size: 2em;
+}
+
+.floating-dropdown .hidden-item {
+    margin: 0 0 -50px 0;
+    opacity: 0;
+    transition: margin 1s ease-out, opacity 0.5s;
+    padding: 0.5em;
+    margin-right: 0.6em;
+    margin-left: 0.6em;
+    z-index: 1;
+    position: relative;
+}
